@@ -1,0 +1,14 @@
+URGENT: Set Environment Variable in Render Dashboard
+
+The frontend at https://lyzr-1.onrender.com cannot connect to the backend.
+
+ACTION REQUIRED:
+1. Go to https://dashboard.render.com
+2. Click your frontend service "lyzr-1"
+3. Go to "Environment" tab
+4. Add environment variable:
+   Key: NEXT_PUBLIC_API_URL
+   Value: https://lyzr-c2rq.onrender.com
+5. Save - it will auto-redeploy
+
+After this, your app will work!
